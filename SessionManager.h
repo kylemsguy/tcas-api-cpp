@@ -1,7 +1,7 @@
 #ifndef SESSIONMANAGER_H
 #define SESSIONMANAGER_H
 
-#include "connectionmanager.h"
+#include "ConnectionManager.h"
 
 class SessionManager {
 private:
@@ -12,7 +12,7 @@ private:
 public:
 	static const char *BASE_URL = "http://twocansandstring.com/";
 
-	
+
 };
 
 #endif

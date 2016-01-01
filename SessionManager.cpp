@@ -1,5 +1,5 @@
-#include "connectionmanager.h"
-#include "sessionmanager.h"
+#include "ConnectionManager.h"
+#include "SessionManager.h"
 
 SessionManager::SessionManager(CookieJar cookieJar){
 	cm.setCookieJar(cookieJar);
